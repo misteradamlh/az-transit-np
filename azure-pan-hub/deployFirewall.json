@@ -68,7 +68,7 @@
 			"metadata": {
 				"description": "Azure VM size for VM-Series"
 			},
-			"defaultValue": "Standard_D3"
+			"defaultValue": "Standard_D3_v2"
 		},
 		"imageSku": {
 			"type": "string",
@@ -80,7 +80,7 @@
 			"metadata": {
 				"description": "byol = Bring Your Own License; bundle1 = Bundle 1 PAYG (Hourly); bundle2 = Bundle 2 PAYG (Hourly)"
 			},
-			"defaultValue": "byol"
+			"defaultValue": "bundle1"
 		},
 		"bootstrap": {
 			"type": "string",
